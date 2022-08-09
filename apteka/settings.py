@@ -3,14 +3,14 @@ BOT_NAME = 'apteka'
 
 SPIDER_MODULES = ['apteka.spiders']
 NEWSPIDER_MODULE = 'apteka.spiders'
-ROTATING_PROXY_LIST = [
-    "https://0Bb7Tp:KGUFPk@45.129.7.7:8000",
-    "https://0Bb7Tp:KGUFPk@45.129.7.156:8000",
-    "https://0Bb7Tp:KGUFPk@45.129.7.178:8000",
-    "https://0Bb7Tp:KGUFPk@45.129.6.155:8000",
-    "https://0Bb7Tp:KGUFPk@45.129.6.101:8000",
-    "https://0Bb7Tp:KGUFPk@45.129.5.7:8000"
-]
+# ROTATING_PROXY_LIST = [
+#     "https://0Bb7Tp:KGUFPk@45.129.7.7:8000",
+#     "https://0Bb7Tp:KGUFPk@45.129.7.156:8000",
+#     "https://0Bb7Tp:KGUFPk@45.129.7.178:8000",
+#     "https://0Bb7Tp:KGUFPk@45.129.6.155:8000",
+#     "https://0Bb7Tp:KGUFPk@45.129.6.101:8000",
+#     "https://0Bb7Tp:KGUFPk@45.129.5.7:8000"
+# ]
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'apteka (+http://www.yourdomain.com)'
